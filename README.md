@@ -14,6 +14,6 @@ We believe that the best way to learn is by doing and sometimes by breaking thin
 
 ## Visit Us
 
-You can access the platform at: [trytodownloadme.github.io](https://trytodownloadme.github.io)
+You can access the platform at: [trytodownloadme](https://abineethan.github.io/trytodownloadme)
 
 Thank you for visiting **Try To Download Me**. We hope you enjoy experimenting with our challenges and learning more about HTML and JavaScript!
