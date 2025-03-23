@@ -1,0 +1,132 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    background-image: url("./Path.svg");
+}
+
+
+header {
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-image: url("./Path.svg");
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF3366;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    position: relative;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+.text-content p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+
+.button-container {
+    width: 600px;
+    height: 225px; 
+    position: relative;
+    overflow: hidden; 
+    margin-top: 20px;
+}
+
+
+.get-started {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF7E5F;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+}
+
+.get-started:hover {
+    background-color: #FF3366;
+}
+
+
+.illustration {
+    width: 80%;
+    height: 600px;
+    background: url('./fil.png') no-repeat center;
+    background-size: contain;
+}
+
+.margin-left {
+    margin-left: 220px;
+}
+
+
+nav ul li a.home-button {
+    padding: 10px 20px;
+    background-color: #FF7E5F;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+nav ul li a.home-button:hover {
+    background-color: #FF3366;
+    transform: translateY(-2px); 
+}
+
+.home-hover {
+    background-color: #FF3366;
+    transform: translateY(-2px); 
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+}

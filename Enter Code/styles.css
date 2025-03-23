@@ -1,0 +1,182 @@
+
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-image: url("./Path 1.svg"); 
+}
+
+
+header {
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF3366;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+
+nav ul li a.home-button {
+    padding: 10px 20px;
+    background-color: #FF7E5F;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+nav ul li a.home-button:hover {
+    background-color: #FF3366;
+    transform: translateY(-2px); 
+}
+
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 50px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    position: relative;
+   
+}
+
+
+.container {
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #6e8efb;
+    outline: none;
+}
+
+.get-button {
+    display: none; 
+    padding: 10px 20px;
+    background-color: #FF7E5F;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.get-button:hover {
+    background-color: #FF3366;
+}
+
+.error {
+    color: red;
+    display: none;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+
+.get-code {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF7E5F;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+}
+
+.get-code:hover {
+    background-color: #FF3366;
+}
+
+
+.button-container {
+    width: 400px; 
+    height: 200px; 
+    position: relative;
+    overflow: hidden; 
+    margin-top: 20px;
+}
+
+
+.get-started {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+}
+
+.get-started:hover {
+    background-color: #FF3366;
+}
+
+.text-content {
+    font-size: 40px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.text-content_1 {
+    font-size: 30px;
+    margin-top: 10px;
+    color: #ffffff;
+}

@@ -1,0 +1,139 @@
+
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-image: url("./pic.jpg"); 
+}
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./pic.jpg");
+    padding: 20px 50px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.568); 
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF3366;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+
+nav ul li a.home-button {
+    padding: 10px 20px;
+    background-color: #FF7E5F;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+nav ul li a.home-button:hover {
+    background-color: #FF3366;
+    transform: translateY(-2px);
+}
+
+
+.app-preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #fae0f3;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.app-details {
+    flex: 1;
+    padding: 20px;
+}
+
+.app-details h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.app-details p {
+    font-size: 16px;
+    color: #FF3366;
+}
+
+.preview-image {
+    flex: 1;
+}
+
+.app-image {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+.download-section {
+    text-align: center;
+    padding: 40px;
+    background: #e9fae0;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.download-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.download-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+.download-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background: radial-gradient(circle farthest-corner at 10% 20%, rgba(255, 94, 247, 1) 17.8%, rgba(2, 245, 255, 1) 100.2%);
+    transform: scale(0.9) rotate(3deg);
+    transition: 0.5s;
+
+}
+
